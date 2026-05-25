@@ -93,20 +93,15 @@ Thumbs.db
 .DS_Store
 
 # =========================
-# Data & Models
+# Ignore ONLY very large / unnecessary files
 # =========================
-data/
-models/
 
-# ML Model Files
-*.keras
-*.h5
+# Optional large model formats
 *.pt
 *.pth
 *.onnx
-*.pkl
 
-# Large archives
+# Optional archives
 *.zip
 *.tar.gz
 *.rar
