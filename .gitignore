@@ -96,12 +96,5 @@ Thumbs.db
 # Ignore ONLY very large / unnecessary files
 # =========================
 
-# Optional large model formats
-*.pt
-*.pth
-*.onnx
 
-# Optional archives
-*.zip
-*.tar.gz
-*.rar
+
