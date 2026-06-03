@@ -1,22 +1,13 @@
-# CIRCVIS: Stable Minimal Backend Requirements
+# CIRCVIS Stable Render Deployment
 
-# Web Framework
-
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
+fastapi==0.95.2
+uvicorn==0.22.0
 python-multipart==0.0.6
-pydantic==2.5.0
-pydantic-settings==2.1.0
 
-# Image Processing
+pydantic==1.10.13
 
 pillow==10.4.0
-
-# Utilities
-
 python-dotenv==1.0.1
 requests==2.31.0
-
-# UI Demo
 
 streamlit==1.37.1
