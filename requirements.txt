@@ -30,3 +30,6 @@ mypy==1.7.1
 # Optional: For edge deployment
 # tensorflow-lite (for quantized models)
 # onnx==1.15.0 (for model export)
+
+# UI demo
+streamlit
