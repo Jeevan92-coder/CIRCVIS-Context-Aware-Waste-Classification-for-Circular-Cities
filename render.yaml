@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: circvis
+    env: python
+    branch: main
+    pythonVersion: "3.12"
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
