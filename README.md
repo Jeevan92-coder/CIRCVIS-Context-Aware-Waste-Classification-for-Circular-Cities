@@ -203,6 +203,31 @@ python -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload
 
 ---
 
+## Streamlit demo (optional)
+
+You can run a simple interactive demo using Streamlit. This is useful for quick demos and interactive exploration, but note that Streamlit Community Cloud may not be suitable for very large model files.
+
+1. Install dependencies (includes `streamlit`):
+
+```powershell
+pip install -r requirements.txt
+```
+
+2. Run the demo locally:
+
+```powershell
+streamlit run frontend/streamlit_app.py --server.port 8501 --server.address 0.0.0.0
+```
+
+3. Open the demo in your browser:
+
+```text
+http://localhost:8501
+```
+
+Deployment note: To publish on Streamlit Community Cloud, push the repository to GitHub and create a new app pointing to `frontend/streamlit_app.py`. If your repository includes large model files, consider using the mock mode (toggle in the sidebar) or host the model files on object storage and modify the app to download them at startup.
+
+
 # 🌐 Access Application
 
 ```text
