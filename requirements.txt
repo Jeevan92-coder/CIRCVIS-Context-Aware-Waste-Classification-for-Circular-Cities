@@ -1,34 +1,22 @@
-# CIRCVIS: Context-Aware Waste Classification Backend
+# CIRCVIS: Stable Minimal Backend Requirements
 
 # Web Framework
+
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 pydantic==2.5.0
 pydantic-settings==2.1.0
 
-# Machine Learning
-scikit-learn==1.5.2
-numpy==2.1.1
-opencv-python-headless==4.10.0.84
+# Image Processing
 
-# Data Processing
-pandas==2.2.3
-pillow==10.1.0
+pillow==10.4.0
 
 # Utilities
-python-dotenv==1.0.0
+
+python-dotenv==1.0.1
 requests==2.31.0
 
-# Development
-pytest==7.4.3
-black==23.12.1
-flake8==6.1.0
-mypy==1.7.1
+# UI Demo
 
-# Optional: For edge deployment
-# tensorflow-lite (for quantized models)
-# onnx==1.15.0 (for model export)
-
-# UI demo
-streamlit
+streamlit==1.37.1
